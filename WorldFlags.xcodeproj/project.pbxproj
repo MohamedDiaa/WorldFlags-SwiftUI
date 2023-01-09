@@ -14,6 +14,9 @@
 		83083644296C74370099A23D /* WorldFlagsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83083643296C74370099A23D /* WorldFlagsTests.swift */; };
 		8308364E296C74370099A23D /* WorldFlagsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8308364D296C74370099A23D /* WorldFlagsUITests.swift */; };
 		83083650296C74370099A23D /* WorldFlagsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8308364F296C74370099A23D /* WorldFlagsUITestsLaunchTests.swift */; };
+		8308365F296C7DC20099A23D /* Egypt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8308365E296C7DC20099A23D /* Egypt.swift */; };
+		83083664296C7E300099A23D /* Alegria.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83083663296C7E300099A23D /* Alegria.swift */; };
+		83083666296C84520099A23D /* Morocco.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83083665296C84520099A23D /* Morocco.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +47,9 @@
 		83083649296C74370099A23D /* WorldFlagsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WorldFlagsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8308364D296C74370099A23D /* WorldFlagsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorldFlagsUITests.swift; sourceTree = "<group>"; };
 		8308364F296C74370099A23D /* WorldFlagsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorldFlagsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		8308365E296C7DC20099A23D /* Egypt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Egypt.swift; sourceTree = "<group>"; };
+		83083663296C7E300099A23D /* Alegria.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alegria.swift; sourceTree = "<group>"; };
+		83083665296C84520099A23D /* Morocco.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Morocco.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +100,7 @@
 		83083631296C74360099A23D /* WorldFlags */ = {
 			isa = PBXGroup;
 			children = (
+				8308365D296C7DAA0099A23D /* Flags */,
 				83083632296C74360099A23D /* WorldFlagsApp.swift */,
 				83083634296C74360099A23D /* ContentView.swift */,
 				83083636296C74370099A23D /* Assets.xcassets */,
@@ -125,6 +132,40 @@
 				8308364F296C74370099A23D /* WorldFlagsUITestsLaunchTests.swift */,
 			);
 			path = WorldFlagsUITests;
+			sourceTree = "<group>";
+		};
+		8308365D296C7DAA0099A23D /* Flags */ = {
+			isa = PBXGroup;
+			children = (
+				83083662296C7DF70099A23D /* Europe */,
+				83083661296C7DF00099A23D /* Africa */,
+				83083660296C7DE50099A23D /* Mena */,
+			);
+			path = Flags;
+			sourceTree = "<group>";
+		};
+		83083660296C7DE50099A23D /* Mena */ = {
+			isa = PBXGroup;
+			children = (
+				8308365E296C7DC20099A23D /* Egypt.swift */,
+				83083663296C7E300099A23D /* Alegria.swift */,
+				83083665296C84520099A23D /* Morocco.swift */,
+			);
+			path = Mena;
+			sourceTree = "<group>";
+		};
+		83083661296C7DF00099A23D /* Africa */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Africa;
+			sourceTree = "<group>";
+		};
+		83083662296C7DF70099A23D /* Europe */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Europe;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,6 +299,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				83083635296C74360099A23D /* ContentView.swift in Sources */,
+				83083664296C7E300099A23D /* Alegria.swift in Sources */,
+				83083666296C84520099A23D /* Morocco.swift in Sources */,
+				8308365F296C7DC20099A23D /* Egypt.swift in Sources */,
 				83083633296C74360099A23D /* WorldFlagsApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
