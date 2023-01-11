@@ -17,6 +17,8 @@
 		8308365F296C7DC20099A23D /* Egypt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8308365E296C7DC20099A23D /* Egypt.swift */; };
 		83083664296C7E300099A23D /* Alegria.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83083663296C7E300099A23D /* Alegria.swift */; };
 		83083666296C84520099A23D /* Morocco.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83083665296C84520099A23D /* Morocco.swift */; };
+		8308366B296EFB5A0099A23D /* CrescentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8308366A296EFB5A0099A23D /* CrescentView.swift */; };
+		8308366E296F05540099A23D /* Triangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8308366D296F05540099A23D /* Triangle.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +52,8 @@
 		8308365E296C7DC20099A23D /* Egypt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Egypt.swift; sourceTree = "<group>"; };
 		83083663296C7E300099A23D /* Alegria.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alegria.swift; sourceTree = "<group>"; };
 		83083665296C84520099A23D /* Morocco.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Morocco.swift; sourceTree = "<group>"; };
+		8308366A296EFB5A0099A23D /* CrescentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrescentView.swift; sourceTree = "<group>"; };
+		8308366D296F05540099A23D /* Triangle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Triangle.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +104,8 @@
 		83083631296C74360099A23D /* WorldFlags */ = {
 			isa = PBXGroup;
 			children = (
+				8308366C296F05400099A23D /* Shapes */,
+				83083667296EF8A80099A23D /* Example */,
 				8308365D296C7DAA0099A23D /* Flags */,
 				83083632296C74360099A23D /* WorldFlagsApp.swift */,
 				83083634296C74360099A23D /* ContentView.swift */,
@@ -166,6 +172,22 @@
 			children = (
 			);
 			path = Europe;
+			sourceTree = "<group>";
+		};
+		83083667296EF8A80099A23D /* Example */ = {
+			isa = PBXGroup;
+			children = (
+				8308366A296EFB5A0099A23D /* CrescentView.swift */,
+			);
+			path = Example;
+			sourceTree = "<group>";
+		};
+		8308366C296F05400099A23D /* Shapes */ = {
+			isa = PBXGroup;
+			children = (
+				8308366D296F05540099A23D /* Triangle.swift */,
+			);
+			path = Shapes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -303,6 +325,8 @@
 				83083666296C84520099A23D /* Morocco.swift in Sources */,
 				8308365F296C7DC20099A23D /* Egypt.swift in Sources */,
 				83083633296C74360099A23D /* WorldFlagsApp.swift in Sources */,
+				8308366E296F05540099A23D /* Triangle.swift in Sources */,
+				8308366B296EFB5A0099A23D /* CrescentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
