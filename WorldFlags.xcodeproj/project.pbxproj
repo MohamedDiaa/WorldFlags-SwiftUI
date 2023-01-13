@@ -19,6 +19,7 @@
 		83083666296C84520099A23D /* Morocco.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83083665296C84520099A23D /* Morocco.swift */; };
 		8308366B296EFB5A0099A23D /* CrescentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8308366A296EFB5A0099A23D /* CrescentView.swift */; };
 		8308366E296F05540099A23D /* Triangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8308366D296F05540099A23D /* Triangle.swift */; };
+		83083670297198540099A23D /* Switzerland.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8308366F297198540099A23D /* Switzerland.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,7 @@
 		83083665296C84520099A23D /* Morocco.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Morocco.swift; sourceTree = "<group>"; };
 		8308366A296EFB5A0099A23D /* CrescentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrescentView.swift; sourceTree = "<group>"; };
 		8308366D296F05540099A23D /* Triangle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Triangle.swift; sourceTree = "<group>"; };
+		8308366F297198540099A23D /* Switzerland.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Switzerland.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -170,6 +172,7 @@
 		83083662296C7DF70099A23D /* Europe */ = {
 			isa = PBXGroup;
 			children = (
+				8308366F297198540099A23D /* Switzerland.swift */,
 			);
 			path = Europe;
 			sourceTree = "<group>";
@@ -323,6 +326,7 @@
 				83083635296C74360099A23D /* ContentView.swift in Sources */,
 				83083664296C7E300099A23D /* Alegria.swift in Sources */,
 				83083666296C84520099A23D /* Morocco.swift in Sources */,
+				83083670297198540099A23D /* Switzerland.swift in Sources */,
 				8308365F296C7DC20099A23D /* Egypt.swift in Sources */,
 				83083633296C74360099A23D /* WorldFlagsApp.swift in Sources */,
 				8308366E296F05540099A23D /* Triangle.swift in Sources */,
