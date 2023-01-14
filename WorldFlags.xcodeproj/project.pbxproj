@@ -22,6 +22,7 @@
 		83083670297198540099A23D /* Switzerland.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8308366F297198540099A23D /* Switzerland.swift */; };
 		83B44E222971D3A1003AA8DA /* India.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83B44E212971D3A1003AA8DA /* India.swift */; };
 		83B44E2429731F96003AA8DA /* Germany.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83B44E2329731F96003AA8DA /* Germany.swift */; };
+		83B44E262973202D003AA8DA /* Belgium.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83B44E252973202D003AA8DA /* Belgium.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +61,7 @@
 		8308366F297198540099A23D /* Switzerland.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Switzerland.swift; sourceTree = "<group>"; };
 		83B44E212971D3A1003AA8DA /* India.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = India.swift; sourceTree = "<group>"; };
 		83B44E2329731F96003AA8DA /* Germany.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Germany.swift; sourceTree = "<group>"; };
+		83B44E252973202D003AA8DA /* Belgium.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Belgium.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -179,6 +181,7 @@
 			children = (
 				8308366F297198540099A23D /* Switzerland.swift */,
 				83B44E2329731F96003AA8DA /* Germany.swift */,
+				83B44E252973202D003AA8DA /* Belgium.swift */,
 			);
 			path = Europe;
 			sourceTree = "<group>";
@@ -347,6 +350,7 @@
 				83083633296C74360099A23D /* WorldFlagsApp.swift in Sources */,
 				8308366E296F05540099A23D /* Triangle.swift in Sources */,
 				8308366B296EFB5A0099A23D /* CrescentView.swift in Sources */,
+				83B44E262973202D003AA8DA /* Belgium.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
