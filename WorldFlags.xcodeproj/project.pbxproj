@@ -27,6 +27,7 @@
 		83EEDCF32975621B001B5049 /* Bangladesh.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83EEDCF22975621B001B5049 /* Bangladesh.swift */; };
 		83EEDCF529757175001B5049 /* Ukraine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83EEDCF429757175001B5049 /* Ukraine.swift */; };
 		83EEDCF729757217001B5049 /* Sweden.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83EEDCF629757217001B5049 /* Sweden.swift */; };
+		83EEDCF92975737E001B5049 /* Italy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83EEDCF82975737E001B5049 /* Italy.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -70,6 +71,7 @@
 		83EEDCF22975621B001B5049 /* Bangladesh.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bangladesh.swift; sourceTree = "<group>"; };
 		83EEDCF429757175001B5049 /* Ukraine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ukraine.swift; sourceTree = "<group>"; };
 		83EEDCF629757217001B5049 /* Sweden.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sweden.swift; sourceTree = "<group>"; };
+		83EEDCF82975737E001B5049 /* Italy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Italy.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -193,6 +195,7 @@
 				83EEDCF02975575D001B5049 /* Russia.swift */,
 				83EEDCF429757175001B5049 /* Ukraine.swift */,
 				83EEDCF629757217001B5049 /* Sweden.swift */,
+				83EEDCF82975737E001B5049 /* Italy.swift */,
 			);
 			path = Europe;
 			sourceTree = "<group>";
@@ -361,6 +364,7 @@
 				83083664296C7E300099A23D /* Alegria.swift in Sources */,
 				83B44E222971D3A1003AA8DA /* India.swift in Sources */,
 				83083666296C84520099A23D /* Morocco.swift in Sources */,
+				83EEDCF92975737E001B5049 /* Italy.swift in Sources */,
 				83083670297198540099A23D /* Switzerland.swift in Sources */,
 				8308365F296C7DC20099A23D /* Egypt.swift in Sources */,
 				83083633296C74360099A23D /* WorldFlagsApp.swift in Sources */,
