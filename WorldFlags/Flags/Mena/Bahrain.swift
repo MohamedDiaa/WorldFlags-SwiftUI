@@ -14,8 +14,8 @@ struct TrianglePillar: Shape {
     func path(in rect: CGRect) -> Path {
 
         let pt0 = CGPoint(x: rect.midX, y: 0)
-        let pt1 = CGPoint(x: 0, y: rect.maxX)
-        let pt2 = CGPoint(x: rect.maxX, y: rect.maxX)
+        let pt1 = CGPoint(x: 0, y: rect.maxY)
+        let pt2 = CGPoint(x: rect.maxX, y: rect.maxY)
 
         var path = Path()
         path.move(to: pt0)
