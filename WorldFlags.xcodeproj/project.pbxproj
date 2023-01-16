@@ -26,6 +26,7 @@
 		83EEDCF12975575D001B5049 /* Russia.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83EEDCF02975575D001B5049 /* Russia.swift */; };
 		83EEDCF32975621B001B5049 /* Bangladesh.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83EEDCF22975621B001B5049 /* Bangladesh.swift */; };
 		83EEDCF529757175001B5049 /* Ukraine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83EEDCF429757175001B5049 /* Ukraine.swift */; };
+		83EEDCF729757217001B5049 /* Sweden.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83EEDCF629757217001B5049 /* Sweden.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -68,6 +69,7 @@
 		83EEDCF02975575D001B5049 /* Russia.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Russia.swift; sourceTree = "<group>"; };
 		83EEDCF22975621B001B5049 /* Bangladesh.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bangladesh.swift; sourceTree = "<group>"; };
 		83EEDCF429757175001B5049 /* Ukraine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ukraine.swift; sourceTree = "<group>"; };
+		83EEDCF629757217001B5049 /* Sweden.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sweden.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -190,6 +192,7 @@
 				83B44E252973202D003AA8DA /* Belgium.swift */,
 				83EEDCF02975575D001B5049 /* Russia.swift */,
 				83EEDCF429757175001B5049 /* Ukraine.swift */,
+				83EEDCF629757217001B5049 /* Sweden.swift */,
 			);
 			path = Europe;
 			sourceTree = "<group>";
@@ -349,6 +352,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				83EEDCF729757217001B5049 /* Sweden.swift in Sources */,
 				83083635296C74360099A23D /* ContentView.swift in Sources */,
 				83EEDCF529757175001B5049 /* Ukraine.swift in Sources */,
 				83EEDCF32975621B001B5049 /* Bangladesh.swift in Sources */,
