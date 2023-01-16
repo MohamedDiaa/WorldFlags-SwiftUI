@@ -9,7 +9,7 @@ import SwiftUI
 
 //https://en.wikipedia.org/wiki/Flag_of_Bahrain
 
-private struct BahrainPillar: Shape {
+struct TrianglePillar: Shape {
 
     func path(in rect: CGRect) -> Path {
 
@@ -39,17 +39,17 @@ struct Bahrain: View {
 
                 let pillarHeight = geometry.size.height / 5.0
                 VStack(spacing: 0) {
-                    BahrainPillar()
+                    TrianglePillar()
                         .rotationEffect(Angle(degrees: 90))
-                    BahrainPillar()
-                        .rotationEffect(Angle(degrees: 90))
-
-                    BahrainPillar()
+                    TrianglePillar()
                         .rotationEffect(Angle(degrees: 90))
 
-                    BahrainPillar()
+                    TrianglePillar()
                         .rotationEffect(Angle(degrees: 90))
-                    BahrainPillar()
+
+                    TrianglePillar()
+                        .rotationEffect(Angle(degrees: 90))
+                    TrianglePillar()
                         .rotationEffect(Angle(degrees: 90))
                 }
                 .foregroundColor(.white)
