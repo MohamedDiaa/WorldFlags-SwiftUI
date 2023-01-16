@@ -23,6 +23,7 @@
 		83B44E222971D3A1003AA8DA /* India.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83B44E212971D3A1003AA8DA /* India.swift */; };
 		83B44E2429731F96003AA8DA /* Germany.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83B44E2329731F96003AA8DA /* Germany.swift */; };
 		83B44E262973202D003AA8DA /* Belgium.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83B44E252973202D003AA8DA /* Belgium.swift */; };
+		83EEDCF12975575D001B5049 /* Russia.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83EEDCF02975575D001B5049 /* Russia.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,6 +63,7 @@
 		83B44E212971D3A1003AA8DA /* India.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = India.swift; sourceTree = "<group>"; };
 		83B44E2329731F96003AA8DA /* Germany.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Germany.swift; sourceTree = "<group>"; };
 		83B44E252973202D003AA8DA /* Belgium.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Belgium.swift; sourceTree = "<group>"; };
+		83EEDCF02975575D001B5049 /* Russia.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Russia.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -182,6 +184,7 @@
 				8308366F297198540099A23D /* Switzerland.swift */,
 				83B44E2329731F96003AA8DA /* Germany.swift */,
 				83B44E252973202D003AA8DA /* Belgium.swift */,
+				83EEDCF02975575D001B5049 /* Russia.swift */,
 			);
 			path = Europe;
 			sourceTree = "<group>";
@@ -342,6 +345,7 @@
 			files = (
 				83083635296C74360099A23D /* ContentView.swift in Sources */,
 				83B44E2429731F96003AA8DA /* Germany.swift in Sources */,
+				83EEDCF12975575D001B5049 /* Russia.swift in Sources */,
 				83083664296C7E300099A23D /* Alegria.swift in Sources */,
 				83B44E222971D3A1003AA8DA /* India.swift in Sources */,
 				83083666296C84520099A23D /* Morocco.swift in Sources */,
