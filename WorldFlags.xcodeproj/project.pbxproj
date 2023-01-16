@@ -31,6 +31,7 @@
 		83EEDCFE29757437001B5049 /* Denmark.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83EEDCFD29757437001B5049 /* Denmark.swift */; };
 		83EEDD0029759669001B5049 /* Bahrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83EEDCFF29759669001B5049 /* Bahrain.swift */; };
 		83EEDD022975A222001B5049 /* Qatar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83EEDD012975A222001B5049 /* Qatar.swift */; };
+		83EEDD042975A7FB001B5049 /* Austria.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83EEDD032975A7FB001B5049 /* Austria.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -78,6 +79,7 @@
 		83EEDCFD29757437001B5049 /* Denmark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Denmark.swift; sourceTree = "<group>"; };
 		83EEDCFF29759669001B5049 /* Bahrain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bahrain.swift; sourceTree = "<group>"; };
 		83EEDD012975A222001B5049 /* Qatar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Qatar.swift; sourceTree = "<group>"; };
+		83EEDD032975A7FB001B5049 /* Austria.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Austria.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -204,6 +206,7 @@
 				83EEDCF02975575D001B5049 /* Russia.swift */,
 				83EEDCF429757175001B5049 /* Ukraine.swift */,
 				83EEDCF82975737E001B5049 /* Italy.swift */,
+				83EEDD032975A7FB001B5049 /* Austria.swift */,
 			);
 			path = Europe;
 			sourceTree = "<group>";
@@ -381,6 +384,7 @@
 				83EEDCF12975575D001B5049 /* Russia.swift in Sources */,
 				83083664296C7E300099A23D /* Alegria.swift in Sources */,
 				83EEDD0029759669001B5049 /* Bahrain.swift in Sources */,
+				83EEDD042975A7FB001B5049 /* Austria.swift in Sources */,
 				83B44E222971D3A1003AA8DA /* India.swift in Sources */,
 				83083666296C84520099A23D /* Morocco.swift in Sources */,
 				83EEDCF92975737E001B5049 /* Italy.swift in Sources */,

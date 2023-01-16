@@ -7,6 +7,8 @@
 
 import SwiftUI
 
+//https://en.wikipedia.org/wiki/Flag_of_Qatar
+
 struct Qatar: View {
     let red = Color(red: 0.5, green: 0.11, blue: 0.21)
     var body: some View {
