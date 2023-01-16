@@ -28,6 +28,7 @@
 		83EEDCF529757175001B5049 /* Ukraine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83EEDCF429757175001B5049 /* Ukraine.swift */; };
 		83EEDCF729757217001B5049 /* Sweden.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83EEDCF629757217001B5049 /* Sweden.swift */; };
 		83EEDCF92975737E001B5049 /* Italy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83EEDCF82975737E001B5049 /* Italy.swift */; };
+		83EEDCFE29757437001B5049 /* Denmark.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83EEDCFD29757437001B5049 /* Denmark.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -72,6 +73,7 @@
 		83EEDCF429757175001B5049 /* Ukraine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ukraine.swift; sourceTree = "<group>"; };
 		83EEDCF629757217001B5049 /* Sweden.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sweden.swift; sourceTree = "<group>"; };
 		83EEDCF82975737E001B5049 /* Italy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Italy.swift; sourceTree = "<group>"; };
+		83EEDCFD29757437001B5049 /* Denmark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Denmark.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -189,12 +191,12 @@
 		83083662296C7DF70099A23D /* Europe */ = {
 			isa = PBXGroup;
 			children = (
+				83EEDCFA29757400001B5049 /* Nordic */,
 				8308366F297198540099A23D /* Switzerland.swift */,
 				83B44E2329731F96003AA8DA /* Germany.swift */,
 				83B44E252973202D003AA8DA /* Belgium.swift */,
 				83EEDCF02975575D001B5049 /* Russia.swift */,
 				83EEDCF429757175001B5049 /* Ukraine.swift */,
-				83EEDCF629757217001B5049 /* Sweden.swift */,
 				83EEDCF82975737E001B5049 /* Italy.swift */,
 			);
 			path = Europe;
@@ -223,6 +225,15 @@
 				83EEDCF22975621B001B5049 /* Bangladesh.swift */,
 			);
 			path = Asia;
+			sourceTree = "<group>";
+		};
+		83EEDCFA29757400001B5049 /* Nordic */ = {
+			isa = PBXGroup;
+			children = (
+				83EEDCF629757217001B5049 /* Sweden.swift */,
+				83EEDCFD29757437001B5049 /* Denmark.swift */,
+			);
+			path = Nordic;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -369,6 +380,7 @@
 				8308365F296C7DC20099A23D /* Egypt.swift in Sources */,
 				83083633296C74360099A23D /* WorldFlagsApp.swift in Sources */,
 				8308366E296F05540099A23D /* Triangle.swift in Sources */,
+				83EEDCFE29757437001B5049 /* Denmark.swift in Sources */,
 				8308366B296EFB5A0099A23D /* CrescentView.swift in Sources */,
 				83B44E262973202D003AA8DA /* Belgium.swift in Sources */,
 			);
