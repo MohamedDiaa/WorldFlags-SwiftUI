@@ -20,6 +20,7 @@
 		8308366B296EFB5A0099A23D /* CrescentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8308366A296EFB5A0099A23D /* CrescentView.swift */; };
 		8308366E296F05540099A23D /* Triangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8308366D296F05540099A23D /* Triangle.swift */; };
 		83083670297198540099A23D /* Switzerland.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8308366F297198540099A23D /* Switzerland.swift */; };
+		835F71732976D573005DCECD /* RotationProblem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 835F71722976D573005DCECD /* RotationProblem.swift */; };
 		83B44E222971D3A1003AA8DA /* India.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83B44E212971D3A1003AA8DA /* India.swift */; };
 		83B44E2429731F96003AA8DA /* Germany.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83B44E2329731F96003AA8DA /* Germany.swift */; };
 		83B44E262973202D003AA8DA /* Belgium.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83B44E252973202D003AA8DA /* Belgium.swift */; };
@@ -34,6 +35,8 @@
 		83EEDD042975A7FB001B5049 /* Austria.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83EEDD032975A7FB001B5049 /* Austria.swift */; };
 		83EEDD062975A884001B5049 /* Finland.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83EEDD052975A884001B5049 /* Finland.swift */; };
 		83EEDD082975AD52001B5049 /* Scotland.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83EEDD072975AD52001B5049 /* Scotland.swift */; };
+		83EEDD0B2975B48D001B5049 /* Numerics in Frameworks */ = {isa = PBXBuildFile; productRef = 83EEDD0A2975B48D001B5049 /* Numerics */; };
+		83EEDD0D2975B48D001B5049 /* RealModule in Frameworks */ = {isa = PBXBuildFile; productRef = 83EEDD0C2975B48D001B5049 /* RealModule */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -70,6 +73,7 @@
 		8308366A296EFB5A0099A23D /* CrescentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrescentView.swift; sourceTree = "<group>"; };
 		8308366D296F05540099A23D /* Triangle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Triangle.swift; sourceTree = "<group>"; };
 		8308366F297198540099A23D /* Switzerland.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Switzerland.swift; sourceTree = "<group>"; };
+		835F71722976D573005DCECD /* RotationProblem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotationProblem.swift; sourceTree = "<group>"; };
 		83B44E212971D3A1003AA8DA /* India.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = India.swift; sourceTree = "<group>"; };
 		83B44E2329731F96003AA8DA /* Germany.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Germany.swift; sourceTree = "<group>"; };
 		83B44E252973202D003AA8DA /* Belgium.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Belgium.swift; sourceTree = "<group>"; };
@@ -91,6 +95,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				83EEDD0D2975B48D001B5049 /* RealModule in Frameworks */,
+				83EEDD0B2975B48D001B5049 /* Numerics in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -220,6 +226,7 @@
 			isa = PBXGroup;
 			children = (
 				8308366A296EFB5A0099A23D /* CrescentView.swift */,
+				835F71722976D573005DCECD /* RotationProblem.swift */,
 			);
 			path = Example;
 			sourceTree = "<group>";
@@ -267,6 +274,10 @@
 			dependencies = (
 			);
 			name = WorldFlags;
+			packageProductDependencies = (
+				83EEDD0A2975B48D001B5049 /* Numerics */,
+				83EEDD0C2975B48D001B5049 /* RealModule */,
+			);
 			productName = WorldFlags;
 			productReference = 8308362F296C74360099A23D /* WorldFlags.app */;
 			productType = "com.apple.product-type.application";
@@ -339,6 +350,9 @@
 				Base,
 			);
 			mainGroup = 83083626296C74360099A23D;
+			packageReferences = (
+				83EEDD092975B48D001B5049 /* XCRemoteSwiftPackageReference "swift-numerics" */,
+			);
 			productRefGroup = 83083630296C74360099A23D /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -388,6 +402,7 @@
 				83EEDCF32975621B001B5049 /* Bangladesh.swift in Sources */,
 				83B44E2429731F96003AA8DA /* Germany.swift in Sources */,
 				83EEDD022975A222001B5049 /* Qatar.swift in Sources */,
+				835F71732976D573005DCECD /* RotationProblem.swift in Sources */,
 				83EEDCF12975575D001B5049 /* Russia.swift in Sources */,
 				83083664296C7E300099A23D /* Alegria.swift in Sources */,
 				83EEDD0029759669001B5049 /* Bahrain.swift in Sources */,
@@ -721,6 +736,30 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		83EEDD092975B48D001B5049 /* XCRemoteSwiftPackageReference "swift-numerics" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/apple/swift-numerics.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		83EEDD0A2975B48D001B5049 /* Numerics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 83EEDD092975B48D001B5049 /* XCRemoteSwiftPackageReference "swift-numerics" */;
+			productName = Numerics;
+		};
+		83EEDD0C2975B48D001B5049 /* RealModule */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 83EEDD092975B48D001B5049 /* XCRemoteSwiftPackageReference "swift-numerics" */;
+			productName = RealModule;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 83083627296C74360099A23D /* Project object */;
 }
