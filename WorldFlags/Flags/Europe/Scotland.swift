@@ -20,21 +20,21 @@ struct Scotland: View {
             let adjacent = geometry.size.height / 2.0
 
             let angle = atan(opposite / adjacent)
-            let diagonalLength: CGFloat = geometry.size.height * 2   //sqrt( (geometry.size.width * geometry.size.width) + (geometry.size.height * geometry.size.height))
+            let diagonalLength: CGFloat = geometry.size.height
 
             ZStack {
                 blue
 
                 Rectangle()
                     .foregroundColor(.white)
-                    .frame(width: 60, height: diagonalLength)
+                    .frame(width: 30, height: diagonalLength)
                     .rotationEffect(Angle(radians: angle), anchor: .center)
-
-//                Rectangle()
-//                    .foregroundColor(.white)
-//                    .frame(width: 60)
-//                    .rotationEffect(Angle(radians: -angle))
-
+                    .scaleEffect(2)
+                Rectangle()
+                    .foregroundColor(.white)
+                    .frame(width: 30)
+                    .rotationEffect(Angle(radians: -angle))
+                    .scaleEffect(2)
             }
         }
     }
