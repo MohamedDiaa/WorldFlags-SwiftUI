@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct ScottishFlagView: View {
+struct ScottishTestView: View {
     var body: some View {
         GeometryReader { proxy in
             ZStack {
@@ -41,8 +41,8 @@ struct TiltedRectangle: View {
     }
 }
 
-struct SC_Previews: PreviewProvider {
+struct ScottishTestView_Previews: PreviewProvider {
     static var previews: some View {
-        ScottishFlagView()
+        ScottishTestView()
     }
 }
