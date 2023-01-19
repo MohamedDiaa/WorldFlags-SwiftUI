@@ -45,6 +45,7 @@
 		8380C8D42979B2E900C67BF1 /* Chile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8380C8D32979B2E900C67BF1 /* Chile.swift */; };
 		8380C8D62979B46D00C67BF1 /* Colombia.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8380C8D52979B46D00C67BF1 /* Colombia.swift */; };
 		8380C8D82979B56100C67BF1 /* Congo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8380C8D72979B56100C67BF1 /* Congo.swift */; };
+		8380C8DA2979B91F00C67BF1 /* NorthKorea.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8380C8D92979B91F00C67BF1 /* NorthKorea.swift */; };
 		83B44E222971D3A1003AA8DA /* India.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83B44E212971D3A1003AA8DA /* India.swift */; };
 		83B44E2429731F96003AA8DA /* Germany.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83B44E2329731F96003AA8DA /* Germany.swift */; };
 		83B44E262973202D003AA8DA /* Belgium.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83B44E252973202D003AA8DA /* Belgium.swift */; };
@@ -122,6 +123,7 @@
 		8380C8D32979B2E900C67BF1 /* Chile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chile.swift; sourceTree = "<group>"; };
 		8380C8D52979B46D00C67BF1 /* Colombia.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colombia.swift; sourceTree = "<group>"; };
 		8380C8D72979B56100C67BF1 /* Congo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Congo.swift; sourceTree = "<group>"; };
+		8380C8D92979B91F00C67BF1 /* NorthKorea.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NorthKorea.swift; sourceTree = "<group>"; };
 		83B44E212971D3A1003AA8DA /* India.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = India.swift; sourceTree = "<group>"; };
 		83B44E2329731F96003AA8DA /* Germany.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Germany.swift; sourceTree = "<group>"; };
 		83B44E252973202D003AA8DA /* Belgium.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Belgium.swift; sourceTree = "<group>"; };
@@ -339,6 +341,7 @@
 				835F71742976E874005DCECD /* Thailand.swift */,
 				835F717E2978646B005DCECD /* Japan.swift */,
 				8380C8CA2979AA5700C67BF1 /* Armenia.swift */,
+				8380C8D92979B91F00C67BF1 /* NorthKorea.swift */,
 			);
 			path = Asia;
 			sourceTree = "<group>";
@@ -515,6 +518,7 @@
 				835F717F2978646B005DCECD /* Japan.swift in Sources */,
 				835F71732976D573005DCECD /* RotationProblem.swift in Sources */,
 				83EEDCF12975575D001B5049 /* Russia.swift in Sources */,
+				8380C8DA2979B91F00C67BF1 /* NorthKorea.swift in Sources */,
 				83083664296C7E300099A23D /* Alegria.swift in Sources */,
 				83EEDD0029759669001B5049 /* Bahrain.swift in Sources */,
 				835F718B29786F75005DCECD /* CentralAfrica.swift in Sources */,
