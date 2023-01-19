@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct SolomonIslands: View {
-    
+
     let green = Color(red: 0.19, green: 0.35, blue: 0.22)
     let blue = Color(red: 0.13, green: 0.31, blue: 0.7)
     let golden = Color(red: 0.96, green: 0.83, blue: 0.29)
