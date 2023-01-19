@@ -35,6 +35,10 @@
 		835F718B29786F75005DCECD /* CentralAfrica.swift in Sources */ = {isa = PBXBuildFile; fileRef = 835F718A29786F75005DCECD /* CentralAfrica.swift */; };
 		835F718D2978706C005DCECD /* StarShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 835F718C2978706C005DCECD /* StarShape.swift */; };
 		835F718F29795923005DCECD /* SierraLeone.swift in Sources */ = {isa = PBXBuildFile; fileRef = 835F718E29795923005DCECD /* SierraLeone.swift */; };
+		835F719229795ACA005DCECD /* SolomonIslands.swift in Sources */ = {isa = PBXBuildFile; fileRef = 835F719129795ACA005DCECD /* SolomonIslands.swift */; };
+		835F719429798510005DCECD /* CongruentTriangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 835F719329798510005DCECD /* CongruentTriangle.swift */; };
+		8380C8C72979A97000C67BF1 /* GetPointsOnCircle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8380C8C62979A97000C67BF1 /* GetPointsOnCircle.swift */; };
+		8380C8C92979A9B400C67BF1 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8380C8C82979A9B400C67BF1 /* Extensions.swift */; };
 		83B44E222971D3A1003AA8DA /* India.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83B44E212971D3A1003AA8DA /* India.swift */; };
 		83B44E2429731F96003AA8DA /* Germany.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83B44E2329731F96003AA8DA /* Germany.swift */; };
 		83B44E262973202D003AA8DA /* Belgium.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83B44E252973202D003AA8DA /* Belgium.swift */; };
@@ -102,6 +106,10 @@
 		835F718A29786F75005DCECD /* CentralAfrica.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CentralAfrica.swift; sourceTree = "<group>"; };
 		835F718C2978706C005DCECD /* StarShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarShape.swift; sourceTree = "<group>"; };
 		835F718E29795923005DCECD /* SierraLeone.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SierraLeone.swift; sourceTree = "<group>"; };
+		835F719129795ACA005DCECD /* SolomonIslands.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SolomonIslands.swift; sourceTree = "<group>"; };
+		835F719329798510005DCECD /* CongruentTriangle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CongruentTriangle.swift; sourceTree = "<group>"; };
+		8380C8C62979A97000C67BF1 /* GetPointsOnCircle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetPointsOnCircle.swift; sourceTree = "<group>"; };
+		8380C8C82979A9B400C67BF1 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		83B44E212971D3A1003AA8DA /* India.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = India.swift; sourceTree = "<group>"; };
 		83B44E2329731F96003AA8DA /* Germany.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Germany.swift; sourceTree = "<group>"; };
 		83B44E252973202D003AA8DA /* Belgium.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Belgium.swift; sourceTree = "<group>"; };
@@ -168,6 +176,7 @@
 		83083631296C74360099A23D /* WorldFlags */ = {
 			isa = PBXGroup;
 			children = (
+				8380C8C52979A96200C67BF1 /* Helpers */,
 				8308366C296F05400099A23D /* Shapes */,
 				83083667296EF8A80099A23D /* Example */,
 				8308365D296C7DAA0099A23D /* Flags */,
@@ -207,6 +216,7 @@
 		8308365D296C7DAA0099A23D /* Flags */ = {
 			isa = PBXGroup;
 			children = (
+				835F719029795A29005DCECD /* Oceania */,
 				83B44E202971D38C003AA8DA /* Asia */,
 				83083662296C7DF70099A23D /* Europe */,
 				83083661296C7DF00099A23D /* Africa */,
@@ -274,8 +284,26 @@
 			children = (
 				835F718C2978706C005DCECD /* StarShape.swift */,
 				8308366D296F05540099A23D /* Triangle.swift */,
+				835F719329798510005DCECD /* CongruentTriangle.swift */,
 			);
 			path = Shapes;
+			sourceTree = "<group>";
+		};
+		835F719029795A29005DCECD /* Oceania */ = {
+			isa = PBXGroup;
+			children = (
+				835F719129795ACA005DCECD /* SolomonIslands.swift */,
+			);
+			path = Oceania;
+			sourceTree = "<group>";
+		};
+		8380C8C52979A96200C67BF1 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				8380C8C62979A97000C67BF1 /* GetPointsOnCircle.swift */,
+				8380C8C82979A9B400C67BF1 /* Extensions.swift */,
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 		83B44E202971D38C003AA8DA /* Asia */ = {
@@ -445,9 +473,11 @@
 				835F718729786B3B005DCECD /* IvoryCoast.swift in Sources */,
 				83EEDCF529757175001B5049 /* Ukraine.swift in Sources */,
 				83EEDD062975A884001B5049 /* Finland.swift in Sources */,
+				835F719429798510005DCECD /* CongruentTriangle.swift in Sources */,
 				835F7181297865DF005DCECD /* JapanTest.swift in Sources */,
 				835F718529786A66005DCECD /* Mali.swift in Sources */,
 				83EEDCF32975621B001B5049 /* Bangladesh.swift in Sources */,
+				8380C8C72979A97000C67BF1 /* GetPointsOnCircle.swift in Sources */,
 				83B44E2429731F96003AA8DA /* Germany.swift in Sources */,
 				835F71752976E874005DCECD /* Thailand.swift in Sources */,
 				835F718929786BEE005DCECD /* Chad.swift in Sources */,
@@ -459,12 +489,14 @@
 				83083664296C7E300099A23D /* Alegria.swift in Sources */,
 				83EEDD0029759669001B5049 /* Bahrain.swift in Sources */,
 				835F718B29786F75005DCECD /* CentralAfrica.swift in Sources */,
+				8380C8C92979A9B400C67BF1 /* Extensions.swift in Sources */,
 				83EEDD042975A7FB001B5049 /* Austria.swift in Sources */,
 				83B44E222971D3A1003AA8DA /* India.swift in Sources */,
 				83083666296C84520099A23D /* Morocco.swift in Sources */,
 				83EEDCF92975737E001B5049 /* Italy.swift in Sources */,
 				83083670297198540099A23D /* Switzerland.swift in Sources */,
 				835F718D2978706C005DCECD /* StarShape.swift in Sources */,
+				835F719229795ACA005DCECD /* SolomonIslands.swift in Sources */,
 				8308365F296C7DC20099A23D /* Egypt.swift in Sources */,
 				835F718F29795923005DCECD /* SierraLeone.swift in Sources */,
 				83083633296C74360099A23D /* WorldFlagsApp.swift in Sources */,

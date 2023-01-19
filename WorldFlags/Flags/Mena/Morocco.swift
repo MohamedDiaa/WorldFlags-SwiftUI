@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct Star: Shape {
+struct MorocooStar: Shape {
 
     func path(in rect: CGRect) -> Path {
 
@@ -35,7 +35,7 @@ struct Morocco: View {
 //                .font(.system(size: 200))
 //                .foregroundColor(.green)
 
-            Star()
+            MorocooStar()
                 .frame(width: 100, height: 100)
                 .foregroundColor(.green)
 
