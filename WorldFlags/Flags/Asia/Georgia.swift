@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct Georgia: View {
+    let red = Color(red: 0.92, green: 0.2, blue: 0.14)
     var body: some View {
 
         GeometryReader { geometry in
