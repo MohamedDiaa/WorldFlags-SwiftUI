@@ -10,42 +10,48 @@ import SwiftUI
 struct Israel: View {
     var body: some View {
         let blue = Color(red: 0.07, green: 0.2, blue: 0.7)
-        VStack {
 
-            blue
-            ZStack {
-                Color.white
-                GeometryReader { geo in
-                    let frame = geo.frame(in: .local)
-                    let T: CGFloat = 5.5
-                    let radius: CGFloat =  (min(frame.width, frame.height) / 2) - (T * 2)
+        GeometryReader { geo in
+            let frame = geo.frame(in: .local)
 
-                    let pts = getPointsOnCircle(radius: radius, origin: frame.center, count: 6, tiltAngle: 25 * .pi / 180)
+            VStack {
+                blue
+                ZStack {
+                    GeometryReader { geo in
+                        let frame = geo.frame(in: .local)
+                        let T: CGFloat = 5.5
+                        let radius: CGFloat =  (min(frame.width, frame.height) / 2) - (T * 2)
 
-                    Path { path in
+                        let pts = getPointsOnCircle(radius: radius, origin: frame.center, count: 6, tiltAngle: 25 * .pi / 180)
 
-                        path.move(to: pts[0])
-                        path.addLines([
-                            pts[2],
-                            pts[4],
-                            pts[0]
-                        ])
-                        path.closeSubpath()
+                        Color.white
 
-                        path.move(to: pts[1])
-                        path.addLines([
-                            pts[3],
-                            pts[5],
-                            pts[1]
-                        ])
-                        path.closeSubpath()
+                        Path { path in
 
+                            path.move(to: pts[0])
+                            path.addLines([
+                                pts[2],
+                                pts[4],
+                                pts[0]
+                            ])
+                            path.closeSubpath()
+
+                            path.move(to: pts[1])
+                            path.addLines([
+                                pts[3],
+                                pts[5],
+                                pts[1]
+                            ])
+                            path.closeSubpath()
+
+                        }
+                        .stroke(lineWidth: T * 2)
+                        .foregroundColor(blue)
                     }
-                    .stroke(lineWidth: T * 2)
-                    .foregroundColor(blue)
                 }
+                .frame(height: 2 * frame.height / 3)
+                blue
             }
-            blue
         }
     }
 }
