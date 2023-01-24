@@ -1,0 +1,57 @@
+//
+//  Israel.swift
+//  WorldFlags
+//
+//  Created by Mohamed Alwakil on 2023-01-24.
+//
+
+import SwiftUI
+
+struct Israel: View {
+    var body: some View {
+        let blue = Color(red: 0.07, green: 0.2, blue: 0.7)
+        VStack {
+
+            blue
+            ZStack {
+                Color.white
+                GeometryReader { geo in
+                    let frame = geo.frame(in: .local)
+                    let T: CGFloat = 5.5
+                    let radius: CGFloat =  (min(frame.width, frame.height) / 2) - (T * 2)
+
+                    let pts = getPointsOnCircle(radius: radius, origin: frame.center, count: 6, tiltAngle: 25 * .pi / 180)
+
+                    Path { path in
+
+                        path.move(to: pts[0])
+                        path.addLines([
+                            pts[2],
+                            pts[4],
+                            pts[0]
+                        ])
+                        path.closeSubpath()
+
+                        path.move(to: pts[1])
+                        path.addLines([
+                            pts[3],
+                            pts[5],
+                            pts[1]
+                        ])
+                        path.closeSubpath()
+
+                    }
+                    .stroke(lineWidth: T * 2)
+                    .foregroundColor(blue)
+                }
+            }
+            blue
+        }
+    }
+}
+
+struct Israel_Previews: PreviewProvider {
+    static var previews: some View {
+        Israel()
+    }
+}

@@ -14,3 +14,11 @@ extension CGPoint: Hashable {
         hasher.combine(y)
     }
 }
+
+
+extension CGRect {
+
+    var center: CGPoint {
+        .init(x: midX, y: midY)
+    }
+}
