@@ -14,7 +14,7 @@ struct Israel: View {
         GeometryReader { geo in
             let frame = geo.frame(in: .local)
 
-            VStack {
+            VStack(spacing: 0) {
                 blue
                 ZStack {
                     GeometryReader { geo in
