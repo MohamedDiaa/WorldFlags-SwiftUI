@@ -7,39 +7,17 @@
 
 import SwiftUI
 
-struct MorocooStar: Shape {
-
-    func path(in rect: CGRect) -> Path {
-
-        let pt1 = CGPoint(x: rect.midX, y: 0)
-        let pt2 = CGPoint(x: 0, y: rect.maxY)
-        let pt3 = CGPoint(x: rect.maxX, y: rect.maxY)
-
-        var path = Path()
-        path.move(to: pt1)
-        path.addLine(to: pt2)
-        path.addLine(to: pt3)
-        path.closeSubpath()
-
-        return path
-    }
-}
-
 struct Morocco: View {
     var body: some View {
+        let red = Color(red: 0.7, green: 0.2, blue: 0.19)
+        let green = Color(red: 0.16, green: 0.38, blue: 0.21)
 
         ZStack {
-            Color.red
-
-//            Image(systemName: "star")
-//                .font(.system(size: 200))
-//                .foregroundColor(.green)
-
-            MorocooStar()
-                .frame(width: 100, height: 100)
-                .foregroundColor(.green)
-
-
+            red
+            PentagramShape()
+                .stroke(green, lineWidth: 13)
+                .frame(width: 100)
+                .rotationEffect(Angle(radians: .pi))
         }
     }
 }
