@@ -69,6 +69,7 @@
 		8380C9062982D1AF00C67BF1 /* Comoros.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8380C9052982D1AF00C67BF1 /* Comoros.swift */; };
 		8380C9082982DCCE00C67BF1 /* Syria.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8380C9072982DCCE00C67BF1 /* Syria.swift */; };
 		8380C90A2982E12D00C67BF1 /* Turkey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8380C9092982E12D00C67BF1 /* Turkey.swift */; };
+		8380C90E2982E27D00C67BF1 /* United_Arab_Emirates .swift in Sources */ = {isa = PBXBuildFile; fileRef = 8380C90D2982E27D00C67BF1 /* United_Arab_Emirates .swift */; };
 		83B44E222971D3A1003AA8DA /* India.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83B44E212971D3A1003AA8DA /* India.swift */; };
 		83B44E2429731F96003AA8DA /* Germany.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83B44E2329731F96003AA8DA /* Germany.swift */; };
 		83B44E262973202D003AA8DA /* Belgium.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83B44E252973202D003AA8DA /* Belgium.swift */; };
@@ -170,6 +171,7 @@
 		8380C9052982D1AF00C67BF1 /* Comoros.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Comoros.swift; sourceTree = "<group>"; };
 		8380C9072982DCCE00C67BF1 /* Syria.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Syria.swift; sourceTree = "<group>"; };
 		8380C9092982E12D00C67BF1 /* Turkey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Turkey.swift; sourceTree = "<group>"; };
+		8380C90D2982E27D00C67BF1 /* United_Arab_Emirates .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "United_Arab_Emirates .swift"; sourceTree = "<group>"; };
 		83B44E212971D3A1003AA8DA /* India.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = India.swift; sourceTree = "<group>"; };
 		83B44E2329731F96003AA8DA /* Germany.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Germany.swift; sourceTree = "<group>"; };
 		83B44E252973202D003AA8DA /* Belgium.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Belgium.swift; sourceTree = "<group>"; };
@@ -298,6 +300,7 @@
 				83EEDD012975A222001B5049 /* Qatar.swift */,
 				8380C8EF2980413300C67BF1 /* Israel.swift */,
 				8380C9072982DCCE00C67BF1 /* Syria.swift */,
+				8380C90D2982E27D00C67BF1 /* United_Arab_Emirates .swift */,
 			);
 			path = Mena;
 			sourceTree = "<group>";
@@ -616,6 +619,7 @@
 				8380C8DA2979B91F00C67BF1 /* NorthKorea.swift in Sources */,
 				8380C8EB29802F2200C67BF1 /* Indonesia.swift in Sources */,
 				83083664296C7E300099A23D /* Algeria.swift in Sources */,
+				8380C90E2982E27D00C67BF1 /* United_Arab_Emirates .swift in Sources */,
 				83EEDD0029759669001B5049 /* Bahrain.swift in Sources */,
 				835F718B29786F75005DCECD /* CentralAfrica.swift in Sources */,
 				8380C9062982D1AF00C67BF1 /* Comoros.swift in Sources */,
