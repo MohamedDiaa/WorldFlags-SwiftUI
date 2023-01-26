@@ -15,7 +15,7 @@
 		8308364E296C74370099A23D /* WorldFlagsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8308364D296C74370099A23D /* WorldFlagsUITests.swift */; };
 		83083650296C74370099A23D /* WorldFlagsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8308364F296C74370099A23D /* WorldFlagsUITestsLaunchTests.swift */; };
 		8308365F296C7DC20099A23D /* Egypt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8308365E296C7DC20099A23D /* Egypt.swift */; };
-		83083664296C7E300099A23D /* Alegria.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83083663296C7E300099A23D /* Alegria.swift */; };
+		83083664296C7E300099A23D /* Algeria.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83083663296C7E300099A23D /* Algeria.swift */; };
 		83083666296C84520099A23D /* Morocco.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83083665296C84520099A23D /* Morocco.swift */; };
 		8308366B296EFB5A0099A23D /* CrescentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8308366A296EFB5A0099A23D /* CrescentView.swift */; };
 		8308366E296F05540099A23D /* Triangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8308366D296F05540099A23D /* Triangle.swift */; };
@@ -63,6 +63,7 @@
 		8380C8FA29813FCF00C67BF1 /* China.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8380C8F929813FCF00C67BF1 /* China.swift */; };
 		8380C8FC2981745900C67BF1 /* Czechia.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8380C8FB2981745900C67BF1 /* Czechia.swift */; };
 		8380C8FE2981764600C67BF1 /* Guyana.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8380C8FD2981764600C67BF1 /* Guyana.swift */; };
+		8380C90029829A1700C67BF1 /* CrescentShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8380C8FF29829A1700C67BF1 /* CrescentShape.swift */; };
 		83B44E222971D3A1003AA8DA /* India.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83B44E212971D3A1003AA8DA /* India.swift */; };
 		83B44E2429731F96003AA8DA /* Germany.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83B44E2329731F96003AA8DA /* Germany.swift */; };
 		83B44E262973202D003AA8DA /* Belgium.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83B44E252973202D003AA8DA /* Belgium.swift */; };
@@ -110,7 +111,7 @@
 		8308364D296C74370099A23D /* WorldFlagsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorldFlagsUITests.swift; sourceTree = "<group>"; };
 		8308364F296C74370099A23D /* WorldFlagsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorldFlagsUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		8308365E296C7DC20099A23D /* Egypt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Egypt.swift; sourceTree = "<group>"; };
-		83083663296C7E300099A23D /* Alegria.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alegria.swift; sourceTree = "<group>"; };
+		83083663296C7E300099A23D /* Algeria.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Algeria.swift; sourceTree = "<group>"; };
 		83083665296C84520099A23D /* Morocco.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Morocco.swift; sourceTree = "<group>"; };
 		8308366A296EFB5A0099A23D /* CrescentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrescentView.swift; sourceTree = "<group>"; };
 		8308366D296F05540099A23D /* Triangle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Triangle.swift; sourceTree = "<group>"; };
@@ -158,6 +159,7 @@
 		8380C8F929813FCF00C67BF1 /* China.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = China.swift; sourceTree = "<group>"; };
 		8380C8FB2981745900C67BF1 /* Czechia.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Czechia.swift; sourceTree = "<group>"; };
 		8380C8FD2981764600C67BF1 /* Guyana.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Guyana.swift; sourceTree = "<group>"; };
+		8380C8FF29829A1700C67BF1 /* CrescentShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrescentShape.swift; sourceTree = "<group>"; };
 		83B44E212971D3A1003AA8DA /* India.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = India.swift; sourceTree = "<group>"; };
 		83B44E2329731F96003AA8DA /* Germany.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Germany.swift; sourceTree = "<group>"; };
 		83B44E252973202D003AA8DA /* Belgium.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Belgium.swift; sourceTree = "<group>"; };
@@ -280,7 +282,7 @@
 			isa = PBXGroup;
 			children = (
 				8308365E296C7DC20099A23D /* Egypt.swift */,
-				83083663296C7E300099A23D /* Alegria.swift */,
+				83083663296C7E300099A23D /* Algeria.swift */,
 				83083665296C84520099A23D /* Morocco.swift */,
 				83EEDCFF29759669001B5049 /* Bahrain.swift */,
 				83EEDD012975A222001B5049 /* Qatar.swift */,
@@ -348,6 +350,7 @@
 				835F718C2978706C005DCECD /* StarShape.swift */,
 				8308366D296F05540099A23D /* Triangle.swift */,
 				835F719329798510005DCECD /* CongruentTriangle.swift */,
+				8380C8FF29829A1700C67BF1 /* CrescentShape.swift */,
 			);
 			path = Shapes;
 			sourceTree = "<group>";
@@ -595,7 +598,7 @@
 				8380C8FC2981745900C67BF1 /* Czechia.swift in Sources */,
 				8380C8DA2979B91F00C67BF1 /* NorthKorea.swift in Sources */,
 				8380C8EB29802F2200C67BF1 /* Indonesia.swift in Sources */,
-				83083664296C7E300099A23D /* Alegria.swift in Sources */,
+				83083664296C7E300099A23D /* Algeria.swift in Sources */,
 				83EEDD0029759669001B5049 /* Bahrain.swift in Sources */,
 				835F718B29786F75005DCECD /* CentralAfrica.swift in Sources */,
 				8380C8FE2981764600C67BF1 /* Guyana.swift in Sources */,
@@ -613,6 +616,7 @@
 				835F718D2978706C005DCECD /* StarShape.swift in Sources */,
 				835F719229795ACA005DCECD /* SolomonIslands.swift in Sources */,
 				8308365F296C7DC20099A23D /* Egypt.swift in Sources */,
+				8380C90029829A1700C67BF1 /* CrescentShape.swift in Sources */,
 				8380C8CB2979AA5700C67BF1 /* Armenia.swift in Sources */,
 				8380C8F629804DA600C67BF1 /* Nigeria.swift in Sources */,
 				835F718F29795923005DCECD /* SierraLeone.swift in Sources */,
