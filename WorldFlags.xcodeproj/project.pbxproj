@@ -20,6 +20,7 @@
 		8308366B296EFB5A0099A23D /* CrescentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8308366A296EFB5A0099A23D /* CrescentView.swift */; };
 		8308366E296F05540099A23D /* Triangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8308366D296F05540099A23D /* Triangle.swift */; };
 		83083670297198540099A23D /* Switzerland.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8308366F297198540099A23D /* Switzerland.swift */; };
+		831314362984145C00397D68 /* Argentina.swift in Sources */ = {isa = PBXBuildFile; fileRef = 831314352984145C00397D68 /* Argentina.swift */; };
 		835F71732976D573005DCECD /* RotationProblem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 835F71722976D573005DCECD /* RotationProblem.swift */; };
 		835F71752976E874005DCECD /* Thailand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 835F71742976E874005DCECD /* Thailand.swift */; };
 		835F71772976EA77005DCECD /* Netherlands.swift in Sources */ = {isa = PBXBuildFile; fileRef = 835F71762976EA77005DCECD /* Netherlands.swift */; };
@@ -126,6 +127,7 @@
 		8308366A296EFB5A0099A23D /* CrescentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrescentView.swift; sourceTree = "<group>"; };
 		8308366D296F05540099A23D /* Triangle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Triangle.swift; sourceTree = "<group>"; };
 		8308366F297198540099A23D /* Switzerland.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Switzerland.swift; sourceTree = "<group>"; };
+		831314352984145C00397D68 /* Argentina.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Argentina.swift; sourceTree = "<group>"; };
 		835F71722976D573005DCECD /* RotationProblem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotationProblem.swift; sourceTree = "<group>"; };
 		835F71742976E874005DCECD /* Thailand.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Thailand.swift; sourceTree = "<group>"; };
 		835F71762976EA77005DCECD /* Netherlands.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Netherlands.swift; sourceTree = "<group>"; };
@@ -407,6 +409,7 @@
 				8380C8D32979B2E900C67BF1 /* Chile.swift */,
 				8380C8D52979B46D00C67BF1 /* Colombia.swift */,
 				8380C8FD2981764600C67BF1 /* Guyana.swift */,
+				831314352984145C00397D68 /* Argentina.swift */,
 			);
 			path = "South-America";
 			sourceTree = "<group>";
@@ -601,6 +604,7 @@
 				835F71772976EA77005DCECD /* Netherlands.swift in Sources */,
 				83EEDCF729757217001B5049 /* Sweden.swift in Sources */,
 				8380C8F429804C8700C67BF1 /* Mauritius.swift in Sources */,
+				831314362984145C00397D68 /* Argentina.swift in Sources */,
 				83083635296C74360099A23D /* ContentView.swift in Sources */,
 				835F718729786B3B005DCECD /* IvoryCoast.swift in Sources */,
 				83EEDCF529757175001B5049 /* Ukraine.swift in Sources */,
