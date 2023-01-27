@@ -21,12 +21,20 @@ struct Antigua_and_Barbuda: View {
             ZStack {
                 VStack(spacing: 0) {
                     Color.black
+                        .overlay {
+
+                            SunShape()
+                                .foregroundColor(.yellow)
+                                .frame(width: 100)
+                                .position(CGPoint(x: frame.midX, y: frame.midY - 44))
+
+                        }
                     blue
                         .frame(height: 100)
                     Color.white
                 }
 
-               let path = Path { path in
+                let path = Path { path in
 
                     path.move(to: frame.origin)
                     path.addLines([
@@ -36,11 +44,10 @@ struct Antigua_and_Barbuda: View {
                     ])
                     path.closeSubpath()
                 }
+                    .fill(red)
 
                 path
-                    .fill(red)
                 path
-                    .fill(red)
                     .scaleEffect(x: -1)
             }
         }

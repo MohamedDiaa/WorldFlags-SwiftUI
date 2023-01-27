@@ -76,6 +76,7 @@
 		83B44E222971D3A1003AA8DA /* India.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83B44E212971D3A1003AA8DA /* India.swift */; };
 		83B44E2429731F96003AA8DA /* Germany.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83B44E2329731F96003AA8DA /* Germany.swift */; };
 		83B44E262973202D003AA8DA /* Belgium.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83B44E252973202D003AA8DA /* Belgium.swift */; };
+		83DAEF7929840E5E0083B3D5 /* SunShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83DAEF7829840E5E0083B3D5 /* SunShape.swift */; };
 		83EEDCF12975575D001B5049 /* Russia.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83EEDCF02975575D001B5049 /* Russia.swift */; };
 		83EEDCF32975621B001B5049 /* Bangladesh.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83EEDCF22975621B001B5049 /* Bangladesh.swift */; };
 		83EEDCF529757175001B5049 /* Ukraine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83EEDCF429757175001B5049 /* Ukraine.swift */; };
@@ -181,6 +182,7 @@
 		83B44E212971D3A1003AA8DA /* India.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = India.swift; sourceTree = "<group>"; };
 		83B44E2329731F96003AA8DA /* Germany.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Germany.swift; sourceTree = "<group>"; };
 		83B44E252973202D003AA8DA /* Belgium.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Belgium.swift; sourceTree = "<group>"; };
+		83DAEF7829840E5E0083B3D5 /* SunShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SunShape.swift; sourceTree = "<group>"; };
 		83EEDCF02975575D001B5049 /* Russia.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Russia.swift; sourceTree = "<group>"; };
 		83EEDCF22975621B001B5049 /* Bangladesh.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bangladesh.swift; sourceTree = "<group>"; };
 		83EEDCF429757175001B5049 /* Ukraine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ukraine.swift; sourceTree = "<group>"; };
@@ -363,6 +365,7 @@
 				8380C8DF297ADE5400C67BF1 /* DrawCurvedPath.swift */,
 				8380C8E1297ECDF000C67BF1 /* DrawCurvedLine.swift */,
 				8380C8E8297EFBB300C67BF1 /* IndianSpoke.swift */,
+				83DAEF7829840E5E0083B3D5 /* SunShape.swift */,
 			);
 			path = Example;
 			sourceTree = "<group>";
@@ -623,6 +626,7 @@
 				835F717F2978646B005DCECD /* Japan.swift in Sources */,
 				835F71732976D573005DCECD /* RotationProblem.swift in Sources */,
 				83EEDCF12975575D001B5049 /* Russia.swift in Sources */,
+				83DAEF7929840E5E0083B3D5 /* SunShape.swift in Sources */,
 				8380C9022982B3DB00C67BF1 /* Antigua_and_Barbuda.swift in Sources */,
 				8380C9142982EEB800C67BF1 /* PentagramShape.swift in Sources */,
 				8380C8FC2981745900C67BF1 /* Czechia.swift in Sources */,
