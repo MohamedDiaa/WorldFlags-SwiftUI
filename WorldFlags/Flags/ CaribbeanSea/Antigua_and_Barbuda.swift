@@ -18,45 +18,30 @@ struct Antigua_and_Barbuda: View {
 
             let frame = geo.frame(in: .local)
 
-            let ptA: CGPoint = frame.origin
-            let ptB: CGPoint =  .init(x: frame.midX, y: frame.maxY)
-            let ptC: CGPoint = .init(x: frame.maxX, y: frame.minY)
-            let slope = (ptA.y - ptB.y) / (ptA.x - ptB.y)
-
             ZStack {
-                red
-
-                Path { path in
-
-                    path.move(to: ptA)
-                    path.addLines([
-                        ptB,
-                        ptC,
-                        ptA
-                    ])
-                    path.closeSubpath()
+                VStack(spacing: 0) {
+                    Color.black
+                    blue
+                        .frame(height: 100)
+                    Color.white
                 }
-                .fill(.black)
 
-                Path { path in
+               let path = Path { path in
 
-                    // Point D
-                    let ptD_y: CGFloat = 200
-                    let ptD_x = ptD_y / slope
-                    let ptD: CGPoint = .init(x: ptD_x, y: ptD_y)
-
-
-                    let ptB: CGPoint = .init(x: frame.width * 2 / 3 , y: frame.height * 0.5)
-
-                    path.move(to: ptD)
+                    path.move(to: frame.origin)
                     path.addLines([
                         .init(x: frame.midX, y: frame.maxY),
-                       ptB,
-                        ptD
+                        .init(x: frame.origin.x, y: frame.maxY),
+                        frame.origin
                     ])
                     path.closeSubpath()
                 }
-                .fill(.white)
+
+                path
+                    .fill(red)
+                path
+                    .fill(red)
+                    .scaleEffect(x: -1)
             }
         }
     }
