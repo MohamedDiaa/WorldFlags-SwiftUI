@@ -22,6 +22,10 @@
 		83083670297198540099A23D /* Switzerland.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8308366F297198540099A23D /* Switzerland.swift */; };
 		831314362984145C00397D68 /* Argentina.swift in Sources */ = {isa = PBXBuildFile; fileRef = 831314352984145C00397D68 /* Argentina.swift */; };
 		831314382984154B00397D68 /* Azerbaijan.swift in Sources */ = {isa = PBXBuildFile; fileRef = 831314372984154B00397D68 /* Azerbaijan.swift */; };
+		8313143A29841A1700397D68 /* Iraq.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8313143929841A1700397D68 /* Iraq.swift */; };
+		8313143D29841D0300397D68 /* AArslanWessamA-AArslanWessamA.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8313143C29841D0300397D68 /* AArslanWessamA-AArslanWessamA.ttf */; };
+		8313144129841E8000397D68 /* AArslanWessamB-AArslanWessamB.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8313143F29841E3900397D68 /* AArslanWessamB-AArslanWessamB.ttf */; };
+		831314432984215D00397D68 /* Kufi Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 831314422984215D00397D68 /* Kufi Regular.ttf */; };
 		835F71732976D573005DCECD /* RotationProblem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 835F71722976D573005DCECD /* RotationProblem.swift */; };
 		835F71752976E874005DCECD /* Thailand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 835F71742976E874005DCECD /* Thailand.swift */; };
 		835F71772976EA77005DCECD /* Netherlands.swift in Sources */ = {isa = PBXBuildFile; fileRef = 835F71762976EA77005DCECD /* Netherlands.swift */; };
@@ -130,6 +134,11 @@
 		8308366F297198540099A23D /* Switzerland.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Switzerland.swift; sourceTree = "<group>"; };
 		831314352984145C00397D68 /* Argentina.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Argentina.swift; sourceTree = "<group>"; };
 		831314372984154B00397D68 /* Azerbaijan.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Azerbaijan.swift; sourceTree = "<group>"; };
+		8313143929841A1700397D68 /* Iraq.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Iraq.swift; sourceTree = "<group>"; };
+		8313143C29841D0300397D68 /* AArslanWessamA-AArslanWessamA.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "AArslanWessamA-AArslanWessamA.ttf"; sourceTree = "<group>"; };
+		8313143E29841D1700397D68 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		8313143F29841E3900397D68 /* AArslanWessamB-AArslanWessamB.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "AArslanWessamB-AArslanWessamB.ttf"; sourceTree = "<group>"; };
+		831314422984215D00397D68 /* Kufi Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Kufi Regular.ttf"; sourceTree = "<group>"; };
 		835F71722976D573005DCECD /* RotationProblem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotationProblem.swift; sourceTree = "<group>"; };
 		835F71742976E874005DCECD /* Thailand.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Thailand.swift; sourceTree = "<group>"; };
 		835F71762976EA77005DCECD /* Netherlands.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Netherlands.swift; sourceTree = "<group>"; };
@@ -250,6 +259,8 @@
 		83083631296C74360099A23D /* WorldFlags */ = {
 			isa = PBXGroup;
 			children = (
+				8313143E29841D1700397D68 /* Info.plist */,
+				8313143B29841CF700397D68 /* Fonts */,
 				8380C8C52979A96200C67BF1 /* Helpers */,
 				8308366C296F05400099A23D /* Shapes */,
 				83083667296EF8A80099A23D /* Example */,
@@ -314,6 +325,7 @@
 				8380C9072982DCCE00C67BF1 /* Syria.swift */,
 				8380C90D2982E27D00C67BF1 /* United_Arab_Emirates .swift */,
 				8380C90F2982E39E00C67BF1 /* Yemen.swift */,
+				8313143929841A1700397D68 /* Iraq.swift */,
 			);
 			path = Mena;
 			sourceTree = "<group>";
@@ -384,6 +396,16 @@
 				83DAEF7829840E5E0083B3D5 /* SunShape.swift */,
 			);
 			path = Shapes;
+			sourceTree = "<group>";
+		};
+		8313143B29841CF700397D68 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				8313143C29841D0300397D68 /* AArslanWessamA-AArslanWessamA.ttf */,
+				8313143F29841E3900397D68 /* AArslanWessamB-AArslanWessamB.ttf */,
+				831314422984215D00397D68 /* Kufi Regular.ttf */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 		835F719029795A29005DCECD /* Oceania */ = {
@@ -575,7 +597,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				8308363A296C74370099A23D /* Preview Assets.xcassets in Resources */,
+				831314432984215D00397D68 /* Kufi Regular.ttf in Resources */,
+				8313144129841E8000397D68 /* AArslanWessamB-AArslanWessamB.ttf in Resources */,
 				83083637296C74370099A23D /* Assets.xcassets in Resources */,
+				8313143D29841D0300397D68 /* AArslanWessamA-AArslanWessamA.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -620,6 +645,7 @@
 				835F718529786A66005DCECD /* Mali.swift in Sources */,
 				83EEDCF32975621B001B5049 /* Bangladesh.swift in Sources */,
 				8380C8FA29813FCF00C67BF1 /* China.swift in Sources */,
+				8313143A29841A1700397D68 /* Iraq.swift in Sources */,
 				8380C8C72979A97000C67BF1 /* GetPointsOnCircle.swift in Sources */,
 				83B44E2429731F96003AA8DA /* Germany.swift in Sources */,
 				8380C8D42979B2E900C67BF1 /* Chile.swift in Sources */,
@@ -839,6 +865,7 @@
 				DEVELOPMENT_TEAM = K2KX53Y52U;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = WorldFlags/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -868,6 +895,7 @@
 				DEVELOPMENT_TEAM = K2KX53Y52U;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = WorldFlags/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
