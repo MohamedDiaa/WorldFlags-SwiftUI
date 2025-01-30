@@ -26,6 +26,7 @@
 		8313143D29841D0300397D68 /* AArslanWessamA-AArslanWessamA.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8313143C29841D0300397D68 /* AArslanWessamA-AArslanWessamA.ttf */; };
 		8313144129841E8000397D68 /* AArslanWessamB-AArslanWessamB.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8313143F29841E3900397D68 /* AArslanWessamB-AArslanWessamB.ttf */; };
 		831314432984215D00397D68 /* Kufi Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 831314422984215D00397D68 /* Kufi Regular.ttf */; };
+		8337516A2D4BFB1500673C76 /* List.swift in Sources */ = {isa = PBXBuildFile; fileRef = 833751692D4BFB1100673C76 /* List.swift */; };
 		835F71732976D573005DCECD /* RotationProblem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 835F71722976D573005DCECD /* RotationProblem.swift */; };
 		835F71752976E874005DCECD /* Thailand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 835F71742976E874005DCECD /* Thailand.swift */; };
 		835F71772976EA77005DCECD /* Netherlands.swift in Sources */ = {isa = PBXBuildFile; fileRef = 835F71762976EA77005DCECD /* Netherlands.swift */; };
@@ -139,6 +140,7 @@
 		8313143E29841D1700397D68 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		8313143F29841E3900397D68 /* AArslanWessamB-AArslanWessamB.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "AArslanWessamB-AArslanWessamB.ttf"; sourceTree = "<group>"; };
 		831314422984215D00397D68 /* Kufi Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Kufi Regular.ttf"; sourceTree = "<group>"; };
+		833751692D4BFB1100673C76 /* List.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = List.swift; sourceTree = "<group>"; };
 		835F71722976D573005DCECD /* RotationProblem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotationProblem.swift; sourceTree = "<group>"; };
 		835F71742976E874005DCECD /* Thailand.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Thailand.swift; sourceTree = "<group>"; };
 		835F71762976EA77005DCECD /* Netherlands.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Netherlands.swift; sourceTree = "<group>"; };
@@ -267,6 +269,7 @@
 				8308365D296C7DAA0099A23D /* Flags */,
 				83083632296C74360099A23D /* WorldFlagsApp.swift */,
 				83083634296C74360099A23D /* ContentView.swift */,
+				833751692D4BFB1100673C76 /* List.swift */,
 				83083636296C74370099A23D /* Assets.xcassets */,
 				83083638296C74370099A23D /* Preview Content */,
 			);
@@ -658,6 +661,7 @@
 				8380C8EE29802FBA00C67BF1 /* Jamaica.swift in Sources */,
 				835F717F2978646B005DCECD /* Japan.swift in Sources */,
 				835F71732976D573005DCECD /* RotationProblem.swift in Sources */,
+				8337516A2D4BFB1500673C76 /* List.swift in Sources */,
 				83EEDCF12975575D001B5049 /* Russia.swift in Sources */,
 				83DAEF7929840E5E0083B3D5 /* SunShape.swift in Sources */,
 				8380C9022982B3DB00C67BF1 /* Antigua_and_Barbuda.swift in Sources */,
@@ -871,6 +875,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -901,6 +906,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

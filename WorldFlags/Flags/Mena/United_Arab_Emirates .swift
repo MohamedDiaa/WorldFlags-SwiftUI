@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct United_Arab_Emirates_: View {
+struct United_Arab_Emirates: View {
     var body: some View {
         let green = Color(red: 0.19, green: 0.45, blue: 0.2)
         let red = Color(red: 0.92, green: 0.2, blue: 0.14)
@@ -33,6 +33,6 @@ struct United_Arab_Emirates_: View {
 
 struct United_Arab_Emirates__Previews: PreviewProvider {
     static var previews: some View {
-        United_Arab_Emirates_()
+        United_Arab_Emirates()
     }
 }
